@@ -1,2 +1,3 @@
-# magic-8-ball
+# Magic 8 Ball
  A Google Chrome Magic 8 Ball Extention!
+ This extension is not published on the Google Chrome Web Store...
