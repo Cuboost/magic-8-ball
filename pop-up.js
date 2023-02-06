@@ -1,6 +1,7 @@
 // Get elements from HTML
 const adviceText = document.getElementById("advice-text");
 const textInput = document.getElementById("text-input");
+const title = document.getElementById("title");
 const adviceButton = document.getElementById("button");
 
 // List of Advice
@@ -21,6 +22,8 @@ function tellFortune() {
     textInput.classList.remove("text-input-animate");
     // Change Text
     adviceText.innerHTML = randomAnswer;
+    // Change Title
+    title.innerHTML = textInput.value;
     // Show Answer with Animation
     showAnswer();
     // Set Back to Defaults
@@ -32,6 +35,7 @@ function setDefault() {
     textInput.value = "";
     textInput.classList.add("text-input-animate");
     adviceText.classList.remove("advice-text-animate");
+    title.innerHTML = "Magic 8 Ball";
     adviceButton.disabled = false;
 }
 

@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Magic 8 Ball",
     "description": "Seek advice using the Magic 8 Ball Chrome Extension.",
-    "version": "2",
+    "version": "2.1",
     "icons": {
         "16": "images/icon-16.png",
         "32": "images/icon-32.png",

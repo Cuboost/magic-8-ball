@@ -16,14 +16,21 @@ body {
     background: url("./images/background.jpeg") no-repeat center/cover fixed;
     color: var(--text);
     font-family: 'Yusei Magic', sans-serif;
+    transition: all 0.4s;
+}
+
+/* Main */
+main {
     width: 300px;
+    height: 210px;
+    overflow: scroll;
     text-align: center;
-    border-radius: 20px;
 }
 
 /* Text */
 h1 {
     margin-bottom: 8px;
+    padding: 0 20px;
 }
 
 h2 {
